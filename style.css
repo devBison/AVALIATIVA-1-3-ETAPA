@@ -1,0 +1,15 @@
+
+.quadrado{
+    padding: 1em;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 2px;
+    color: black;
+}
+
+ body{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+}
+    

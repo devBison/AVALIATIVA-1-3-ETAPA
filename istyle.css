@@ -1,0 +1,173 @@
+
+*{margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+form{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+}
+
+h1{
+    color: wheat;
+}
+
+
+.formularioContato { 
+    
+    
+    
+ color: wheat;
+   width: 100vh;
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#505050b8; 
+    box-shadow: 1px 0px 1.2px 0px #ffffff; 
+    position:relative; 
+}
+.formularioContato:before { 
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#6f6f6f; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+}
+.formularioContato label  { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float:left; 
+    width:90%; 
+    margin-bottom:2em; 
+}
+.formularioContato label span {
+    
+    width: 100%;
+    float: left;
+    color: #000000;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+}
+.formularioContato label input  { 
+    font-size:1em; 
+    color:#000000; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1.5px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+}
+.formularioContato label select { 
+    font-size:1em; 
+    color:#000000; 
+    border:1px #000000 solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+}
+.formularioContato label textarea { 
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+}
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(0, 0, 0); border:1px #12FF8D solid; color:#000000;}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(0, 0, 0); border:1px #12FF8D solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(0, 0, 0); border:1px #12FF8D solid; color:#000000;}
+.formularioContato button.btn-envia { 
+    background-color:#12ff81a7; 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#000000; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+}
+.formularioContato button.btn-envia:hover { 
+    background-color: #12FF8D; 
+}
+/*----------------MASCARA-------------------------*/
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button input
+{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#FFA12B;
+    display:block;
+    position:relative;
+    padding:20px 40px;
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .button input:active{
+    top:10px;
+    background-color:#F78900;
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  }
+  
+  .button:after{
+    content:"";
+    height:100%;
+    width:100%;
+    padding:4px;
+    position: absolute;
+    bottom:-15px;
+    left:-4px;
+    z-index:-1;
+    background-color:#2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+
+    /*===============================================*/
+
